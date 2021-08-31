@@ -18,7 +18,9 @@
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity android:name=".BusStation"></activity>
         <activity android:name=".KSBus" />
-        <activity android:name=".MenuPage">
+        <activity android:name=".MenuPage"
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
